@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arcade-reflex"
+version = "1.0.0"
+description = "A touchscreen-style arcade reaction game built for interview study."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Nour Abbas" }]
+dependencies = []
+
+[project.scripts]
+arcade-reflex = "arcade_reflex.ui:main"
+
+[tool.setuptools]
+packages = ["arcade_reflex"]
+
