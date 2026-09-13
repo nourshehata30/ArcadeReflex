@@ -67,6 +67,3 @@ The UI depends on the game engine and services, but the game engine does not dep
 - Time is injected into `GameEngine`, so timing tests run instantly and deterministically.
 - Generated database and telemetry files are excluded from Git.
 
-## Further reading
-
-See [ARCHITECTURE_GUIDE.md](ARCHITECTURE_GUIDE.md) for a detailed walkthrough of the architecture, design decisions and potential improvements.
